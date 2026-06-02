@@ -46,11 +46,7 @@ public abstract class UIScene {
 
         this.root = parent;
     }
-
-    public Scene getScene(){
-        return this.scene;
-    }
-
+    
     public void showScene(){
         this.stage.setScene(this.scene);
         this.stage.show();
